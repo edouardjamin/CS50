@@ -21,3 +21,10 @@ A problem set to understand ASCII math.
 Really simple program that retreives the initials of a given name.
 ###caesar.c & viginiere.c
 This is two cryptographic programs. Really fun to do (and to use!)
+
+##pset3
+A fun problem set, introducing graphic user interface
+###find.c
+Simple program to find something in a given input. Practicing binary search.
+###breakout.c
+A fun game developed in C, wiht a graphic interface library from Standford
