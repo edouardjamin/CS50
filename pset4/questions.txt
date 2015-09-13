@@ -1,0 +1,26 @@
+0.  BMP, JPEG and PNG supports 16 777 216 colors while GIF supports only 256 colors.
+1.  GIF
+2.  Lossless means that every single bits is recovered after uncompression
+    Lossy means that the format compresses itself by eliminating certain bits.
+3.  BMP, GIF and PNG supports losseless compression while JPEG is only a lossy format.
+4.  The FAT format first changes the name of the file to tell the OS that the file has been removed and then move the file cluster to "free cluster space". The data of the file is never touched.
+5.  I can use a software or erase correctly my data by putting random number on my memory.
+6.  stdint.h is a library for the C language that allows us to "play" with 8, 16, 32 and 64 bits images
+7.  uint means "Unsigned integer". We use uint because we don't know what to put inside but we need define it first (as a prototype).
+    uint16_t & Co to allow us to write code without worring of the plateform.
+8.  BYTE is 8 bits so 1 byte
+    DWORD is 32 bits so 4 bytes
+    LONG is 32 bits so 4 bytes
+    WORD is 16 bits so 2 bytes
+9.  The first two bytes of a BMP file should be the metada. In ASCII, a B followed by a M.
+10. bfSize specifies the file Size.
+    whereas biSize specifies the overall headersize.
+11. if biHeight > 0, we read the file "bottom-up", with the origin at the lower left corner.
+    if biHeight < 0, we read the file "top-down", with the origin at the upper left corner.
+12. biBitCount
+13. If an error occurs (for instance, if it is impossible to open the file, if we have not right of the directory of the file, if the file doesn't exist)
+14. Third argument of the fread function corresponds to "nmemb". This is the number of elements, each one with a size of size bytes. It show of willingness to read only one file.
+15. 0
+16. fseek positionnates the cursor to a specific place.
+17. Current position of the cursor.
+18. A member of CS50's staff holding an object
