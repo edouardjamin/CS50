@@ -28,3 +28,12 @@ A fun problem set, introducing graphic user interface
 Simple program to find something in a given input. Practicing binary search.
 ###breakout.c
 A fun game developed in C, wiht a graphic interface library from Standford
+
+##pset4
+A really fun problem set to learn how to work and the structure of files images
+###recover.c
+This program in C aims to recover data from a lost sd card
+###whodunit.c
+A image with a lot of red points was given, and this programs aims to delete every red pixels
+###resize.c
+Simple program that resize a given image
