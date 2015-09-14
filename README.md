@@ -37,3 +37,19 @@ This program in C aims to recover data from a lost sd card
 A image with a lot of red points was given, and this programs aims to delete every red pixels
 ###resize.c
 Simple program that resize a given image
+
+##pset5
+Maybe the hardest problem set. The objective was to implement a spell checker with the best memory usage
+##dictionnary.c
+This file is used to run spell.c. A great exercise to understand hashtable and linked list. Hard a really hard time on this one, but was fun after all.
+
+##pset6
+One my favorite pset because it was really gratifying, and was able to wrote a HTTP server in C. How awesome is that?
+##server.c
+This is my own HTTP server :)
+
+##pset7
+Also one of my favorite problem set which goal was to code a little website using JavaScript (jQuery here), HTML/CSS, PHP and MySQL. This website is a stock market game where the user can create an account, buy and sell shares (based on Yahoo Finance), see its history and add fund to its portfolio. 
+
+##pset8
+Really fun problem set that is using the Google Maps JavaScript API v3. This website, coded thanks to JavaScript (no jQuery here), HTML/CSS, MySQL and PHP, allows the user to consult a Google Map with Google News embedded.
