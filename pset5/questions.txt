@@ -1,0 +1,11 @@
+0.  It's a disease (and not a funny one). Also the longest word in English.
+1.  getrusage() gets and returns the usage measures for either the process, the different children of the calling process or for the calling thread
+2.  16
+3.  There's defined in struct rusage in the getusage function
+4.  The "for loop" is used to check every word of the dictionary. First, it checks if it is a word (no number or anything else) ending by a space. Then, it checks if the word is correctly spelled thanks to the check() function, and print it if not. That's all folks.
+5.  fscanf is fine to use with a dictionary with every words finishing by a space or a line return. Whereas fgetc allows to identify words finishing by whatever we specify.
+6.  The value of const cannot be modified later
+7.  I used a hashtable. A for loop iterates through my dictionnary, place each word inside a node, allocate memory and place it correctly inside my hashtable. Linked list is used to prevent collision.
+8.  This pset was more about making the code work than optimize it. I had a hard time making the hashtable (hash function was found online) and linked lists worked (thanks to CS50 and stackoverflow!)
+9.  See previous question
+10. The check part could be improved, because the function iterate through each word inside a bucket. Maybe find a more efficient way.
